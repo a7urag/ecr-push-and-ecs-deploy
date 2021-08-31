@@ -21,6 +21,9 @@ inputs:
   ecs-service:
     description: 'ECS service name'
     required: true
+  build-args:
+    description: 'Docker build args'
+    required: false
 runs:
   using: "composite"
   steps: 
